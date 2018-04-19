@@ -49,7 +49,7 @@
 }
 
 .header span {
-    color: #3978A7;
+    color: #22659e;
 }
 
 .header h2 {
@@ -70,13 +70,13 @@
 }
 
 .sidebar .red {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .sidebar .red span {
-    color: red;
+    color: #d9231c;
 }
 
 .sidebar .dark-blue {
@@ -86,7 +86,7 @@
 }
 
 .sidebar .dark-blue span {
-    color: #3978A7;
+    color: #22659e;
 }
 
 .sidebar a {
@@ -101,7 +101,6 @@
     width: 180px;
     height: 35px;
     line-height: 35px;
-    background-color: violet;
     margin-bottom: 3px;
     margin-left: 2px;
     text-align: center;
@@ -110,7 +109,7 @@
 }
 
 .sidebar .sidebar-line {
-    height: 2px;
+    height: 1px;
     background-color: silver;
     margin: 20px 0px 20px 0px;
 }
@@ -124,6 +123,7 @@
 
 .sidebar .ninja h3 {
     font-weight: 100;
+    color:white;
 }
 
 .sidebar .ninja img {
@@ -136,42 +136,51 @@
     box-shadow: 1px 1px 1px #000000;
 }
 
+.sidebar .ninja span{
+    margin:0px;
+    padding:0px;
+    display: inline-block;
+    overflow: contain;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
 .blue-btn-gradient {
-    background: #5d8dbb;
+    background: #6398c4;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #5d8dbb 0%, #326797 100%);
+    background: -moz-linear-gradient(top, #6398c4 0%, #23669e 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #5d8dbb 0%, #326797 100%);
+    background: -webkit-linear-gradient(top, #6398c4 0%, #23669e 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #5d8dbb 0%, #326797 100%);
+    background: linear-gradient(to bottom, #6398c4 0%, #23669e 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d8dbb', endColorstr='#326797', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6398c4', endColorstr='#23669e', GradientType=0);
     /* IE6-9 */
 }
 
 .orange-btn-gradient {
-    background: #eba253;
+    background: #eaae57;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #eba253 0%, #d47823 100%);
+    background: -moz-linear-gradient(top, #eaae57 0%, #f07500 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #eba253 0%, #d47823 100%);
+    background: -webkit-linear-gradient(top, #eaae57 0%, #f07500 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #eba253 0%, #d47823 100%);
+    background: linear-gradient(to bottom, #eaae57 0%, #f07500 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eba253', endColorstr='#d47823', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaae57', endColorstr='#f07500', GradientType=0);
     /* IE6-9 */
 }
 
 .light-blue-btn-gradient {
-    background: #65a1b8;
+    background: #79d0df;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #65a1b8 0%, #1c94af 100%);
+    background: -moz-linear-gradient(top, #79d0df 0%, #00c0df 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #65a1b8 0%, #1c94af 100%);
+    background: -webkit-linear-gradient(top, #79d0df 0%, #00c0df 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #65a1b8 0%, #1c94af 100%);
+    background: linear-gradient(to bottom, #79d0df 0%, #00c0df 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65a1b8', endColorstr='#1c94af', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79d0df', endColorstr='#00c0df', GradientType=0);
     /* IE6-9 */
 }
 
@@ -185,7 +194,7 @@ a {
 }
 
 .main-content a {
-    color: #02B0D6;
+    color: #00c0df;
 }
 
 .main-content li {
@@ -196,7 +205,7 @@ a {
     padding-bottom: 15px;
 }
 
-hr{
+hr {
     width: 730px;
 }
 
@@ -213,7 +222,7 @@ hr{
 }
 
 .home a {
-    color: #3978A7;
+    color: #22659e;
     font-weight: bold;
     text-decoration: none;
 }
@@ -238,11 +247,11 @@ hr{
     font-size: 19px;
     text-align: left;
     font-weight: bolder;
-    color: #02B0D6;
+    color: #00c0df;
 }
 
 h3 {
-    color: #3978A7;
+    color: #22659e;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 18px;
@@ -265,7 +274,7 @@ ul, ol {
 }
 
 .big-3 {
-    border: 5px solid #02B0D6;
+    border: 5px solid #0085e0;
     border-bottom: none;
     padding: 5px 10px 10px 10px;
     box-shadow: 1px 0px 0px 0px #7e7e7e;
