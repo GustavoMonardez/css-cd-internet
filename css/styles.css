@@ -165,5 +165,52 @@
 }
 
 .main-content {
-    width: 700px;
+    width: 737px;
+    padding-left:35px;
+}
+
+.home-contact{
+    border-bottom: 2px solid silver;
+    padding-bottom:15px;
+}
+
+.home, .contact{
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+}
+
+.home img{
+    width: 20px;
+    margin-top:10px;
+    vertical-align: text-bottom;
+}
+
+.home a{
+    color:#3978A7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact{
+    text-align: right;
+}
+
+.contact img{
+    width:30px;
+}
+
+.contact div{
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 9px;
+}
+
+.contact .phone{
+    font-size: 16px;
+    text-align: left;
+    font-weight: bolder;
+    color:#02B0D6;
 }
