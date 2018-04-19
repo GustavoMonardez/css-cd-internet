@@ -170,7 +170,7 @@
 }
 
 .home-contact{
-    border-bottom: 2px solid silver;
+    border-bottom: 1px solid silver;
     padding-bottom:15px;
 }
 
@@ -213,4 +213,27 @@
     text-align: left;
     font-weight: bolder;
     color:#02B0D6;
+}
+
+h3{
+    color:#3978A7;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 18px;
+}
+
+p, li{
+    font-size: 14px;
+}
+
+ul, ol{
+    margin-left:40px;
+}
+
+.clients img{
+    width:300px;
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+    padding:10px;
 }
