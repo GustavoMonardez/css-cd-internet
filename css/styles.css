@@ -193,8 +193,11 @@ a {
 }
 
 .home-contact {
-    border-bottom: 1.5px solid silver;
     padding-bottom: 15px;
+}
+
+hr{
+    width: 730px;
 }
 
 .home, .contact {
