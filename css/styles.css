@@ -164,9 +164,20 @@
     /* IE6-9 */
 }
 
+a{
+    text-decoration: none;
+}
 .main-content {
     width: 737px;
     padding-left:35px;
+}
+
+.main-content a{
+    color:#02B0D6;
+}
+
+.main-content li{
+    padding-bottom:10px;
 }
 
 .home-contact{
@@ -197,7 +208,7 @@
 }
 
 .contact img{
-    width:30px;
+    width:35px;
 }
 
 .contact div{
@@ -209,7 +220,7 @@
 }
 
 .contact .phone{
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     font-weight: bolder;
     color:#02B0D6;
